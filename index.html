@@ -1,13 +1,62 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <link stylesheet="/css/styles.css">
-    </head>
-    <body>
-        <h1>Set Go</h1>
-        <canvas></canvas>
-        <button type="button" onclick="myFunction()">Try it</button>
-        <script src="/code/setGo.js">
-        </script>
-    </body>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Set Go</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+        body {
+            font-family: 'Bradley Hand ITC', 'Lucida Calligraphy', sans-serif;
+            text-align: center;
+            font-weight: 700;
+        }
+        
+        div {
+            background-color : gainsboro;
+        }
+        .game {
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            outline-width: 12px;
+            outline-color: black;
+            outline-style: solid;
+        }
+        h1 {
+            text-decoration-style: solid;
+            margin-top : 30px;
+            margin-bottom : 0em;
+        }
+        p {
+            padding-top : 1em;
+            width : 1000px;
+            margin : auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="game">
+            <canvas id="myCanvas"></canvas>
+        </div>
+    </div>
+
+    <h1>
+        Where I Started
+    </h1>
+
+    <p>
+        This is the first app I ever made. I started learning about computer programming in the summer before my senior year (2014).
+        I took the intro to Javascript course on KhanAcademy, and from there, I started programming one of my favorite card games
+        into javascript so I could play it online. This Set Go app was the beginning point of my discovery of what programmers could
+        do. Every little success made me so excited. I fell in love with what I could do. Now finally, after a couple of years of "real"
+        programming in school, I brought the app out of KhanAcademy. Enjoy!
+    </p>
+
+    <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+    <script src="code/setGo.js"></script>
+
+
+</body>
 </html>
