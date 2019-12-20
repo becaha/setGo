@@ -2967,6 +2967,6 @@
     
     
         // Get the canvas that Processing-js will use
-        var canvas = document.getElementById("mycanvas");
+        var canvas = document.getElementById("myCanvas");
         // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
         var processingInstance = new Processing(canvas, sketchProc);
